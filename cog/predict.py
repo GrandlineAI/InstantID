@@ -104,7 +104,7 @@ class Predictor(BasePredictor):
             local_files_only=True,
         )
 
-        base_model_path = "stablediffusionapi/juggernaut-xl-v8" #https://civitai.com/models/133005/juggernaut-xl
+        base_model_path = "stablediffusionapi/dreamshaper-xl" #https://civitai.com/models/112902/dreamshaper-xl
         self.pipe = StableDiffusionXLInstantIDPipeline.from_pretrained(
             base_model_path,
             controlnet=self.controlnet,

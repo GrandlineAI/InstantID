@@ -1,7 +1,8 @@
 # Configuration for Cog ⚙️
 # Reference: https://github.com/replicate/cog/blob/main/docs/yaml.md
-
+image: "r8.im/grandlineai/instant-id-artistic"
 build:
+
   # set to true if your model requires a GPU
   gpu: true
   # cuda: "12.1"
